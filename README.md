@@ -1,5 +1,5 @@
 # spacex-telemetry-extractor
-[WIP] Rocket Telemetry Extractor
+Available for Starship launches (some reading errors to be expected in v1) 
 
 ## Overview
 
@@ -43,7 +43,7 @@ If any data point fails to be extracted, a null value is recorded in its place w
 
 ## Ongoing Work
 
-Starship: Calibration and extraction tailored for Starship telemetry.
+Starship: Improvements 
 
 ## Upcoming
 
