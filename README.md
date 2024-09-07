@@ -47,5 +47,5 @@ Starship: Calibration and extraction tailored for Starship telemetry.
 
 ## Upcoming
 
-Falcon: Specialized code for recent Falcon 9 and Falcon Heavy launches.
-Falcon: Specialized code for older Falcon 9 and Falcon Heavy launches. (previous launch overlay)
+- Falcon: For recent Falcon 9 and Falcon Heavy launches.
+- Falcon: For older Falcon 9 and Falcon Heavy launches. (previous launch overlay)
