@@ -12,7 +12,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 def extract_number(text):
     return re.search(r'\d+', text).group() if re.search(r'\d+', text) else ""
 
-def process_roi(roi, config='--psm 6'):
+def process_roi(roi, config='--psm 6 --oem 3 -c tessedit_char_whitelist=0123456789:'):
     gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
     text = pytesseract.image_to_string(gray, config=config).strip()
     
